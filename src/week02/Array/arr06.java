@@ -1,0 +1,18 @@
+package week02.W01.Array;
+
+public class arr06 {
+    public static void main(String[] args) {
+        // 생성 선언 초기화
+        int[][] array = new int[3][];  // 배열 원소마다 각기 다른 길이로 지정할 수 있다.
+        array[0] = new int[3];
+        array[1] = new int[4];
+        array[2] = new int[2];
+
+        // 중괄호로 초기화 할 때도 가변 배열을 만들 수 있다.
+        int[][] array2 = {
+                {10, 20, 30},
+                {10, 20, 30, 40},
+                {10, 20}
+        };
+    }
+}
